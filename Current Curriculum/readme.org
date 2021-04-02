@@ -1,0 +1,7 @@
+* Current Curriculum
+  This folder contains ~pdf~ documents with the current Alberta Curriculum for K-6.
+
+  Due to how these files were produced, 7-9 content for the following courses is included:
+  - Health
+  - Mathematics
+  - English Language Arts
