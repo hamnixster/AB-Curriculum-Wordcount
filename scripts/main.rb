@@ -123,6 +123,7 @@ STOPWORDS = File.read("scripts/stopwords.txt").split("\n")
 # the word appears in stopwords
 def filter_word?(word, values)
   return true unless word
+  word = word.strip
   word.length < 4 ||
     word =~ /\d{3}/ ||
     (values[0] < 5 && values[1] < 5 ) ||
@@ -160,7 +161,7 @@ end
 most_added =
   final_table
     .reject { |word, values| filter_word?(word, values) }
-    .reject { |word, values| values[4] < 0 } # just reduced/removed
+    .reject { |word, values| values[4] < 0 } # just added/expanded
     .map do |word, values|
   [word, values[3] - values[2]]
 end.sort_by(&:last).reverse.to_h
