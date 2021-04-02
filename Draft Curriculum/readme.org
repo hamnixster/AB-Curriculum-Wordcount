@@ -1,0 +1,5 @@
+* Draft Curriculum
+  This folder contains ~pdf~ documents with the draft Alberta Curriculum for K-6.
+
+  The content here corresponds with version ~801~, the most recent version published
+  as of April 2, 2021.
