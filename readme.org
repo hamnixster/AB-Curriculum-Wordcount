@@ -1,0 +1,135 @@
+* Wordcount analysis of the draft Alberta K-6 Curriculum
+
+  This project is an incomplete and possibly buggy bunch of scripts and data aiming to determine some of the changes
+  between the current Alberta K-6 curriculum and the draft curriculum introduced at the end of March, 2021.
+
+  Running the script produces some ~csv~ files that can be analyzed.
+
+** Known issues
+   - Grade 7-9 content is present in some of the current curriculum
+   - Unicode is not handled well, leading to issues in words with accents
+     - The processing is applied equally to both versions, so matching still works reasonably
+   - No way to determine context of usage of various words
+     - Manually looking for discrepant words can provide some value, however
+   - Filtered list is filtered arbitrarily
+     - I made up the rules for filtering, I think it works /reasonably/ well, but there could be issues
+
+** Analysis
+   This is my analysis and I am not an expert in curricula at all.
+
+   If you are looking for a content analysis by a professional, please check [[https://carlapeck.wordpress.com/][Carla Peck's blog.]]
+
+*** Some changes that stand out to me
+**** An increase in religious language
+     | word          | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
+     |---------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
+     | church        |                                 1 |                       0.0 |                              10 |                      0.01 |         515.81 |
+     | religion      |                                 1 |                       0.0 |                              12 |                      0.01 |         638.98 |
+     | goddesses     |                                 0 |                       0.0 |                               5 |                       0.0 | infinity |
+     | Christian     |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
+     | Judaism       |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
+     | non-religious |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
+     | temple        |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
+     | gods          |                                 0 |                       0.0 |                               9 |                      0.01 | infinity |
+     | Muslim        |                                 0 |                       0.0 |                               9 |                      0.01 | infinity |
+     | Islamic       |                                 0 |                       0.0 |                              10 |                      0.01 | infinity |
+     | Jewish        |                                 0 |                       0.0 |                              10 |                      0.01 | infinity |
+     | religions     |                                 0 |                       0.0 |                              10 |                      0.01 | infinity |
+     | mosque        |                                 0 |                       0.0 |                              12 |                      0.01 | infinity |
+     | Catholic      |                                 0 |                       0.0 |                              16 |                      0.01 | infinity |
+     | Islam         |                                 0 |                       0.0 |                              17 |                      0.01 | infinity |
+     | reformation   |                                 0 |                       0.0 |                              17 |                      0.01 | infinity |
+     | Protestant    |                                 0 |                       0.0 |                              23 |                      0.02 | infinity |
+     | religious     |                                 0 |                       0.0 |                              43 |                      0.03 | infinity |
+
+     Note: "non-religious" is only used in the context of music and dance.
+
+**** An increase in past cultures and cultural events
+     | word          | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
+     |---------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
+     | civilization  |                                 0 |                       0.0 |                               7 |                      0.01 | infinity |
+     | Egypt         |                                 0 |                       0.0 |                              16 |                      0.01 | infinity |
+     | Indian        |                                 0 |                       0.0 |                              19 |                      0.01 | infinity |
+     | Greece        |                                 0 |                       0.0 |                              27 |                      0.02 | infinity |
+     | Greek         |                                 0 |                       0.0 |                              30 |                      0.02 | infinity |
+     | Rome          |                                 0 |                       0.0 |                              33 |                      0.02 | infinity |
+     | China         |                                 0 |                       0.0 |                              34 |                      0.03 | infinity |
+     | medieval      |                                 0 |                       0.0 |                              38 |                      0.03 | infinity |
+     | Roman         |                                 0 |                       0.0 |                              43 |                      0.03 | infinity |
+     |---------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
+     | war           |                                 2 |                       0.0 |                              52 |                      0.04 |        1501.12 |
+     | renaissance   |                                 1 |                       0.0 |                              38 |                      0.03 |         2240.1 |
+     | reformation   |                                 0 |                       0.0 |                              17 |                      0.01 | infinity |
+     | enlightenment |                                 0 |                       0.0 |                              18 |                      0.01 | infinity |
+
+**** An increase of American concepts, locations, and figures
+     | word          | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
+     |---------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
+     | independence  |                                 9 |                      0.01 |                              18 |                      0.01 |          23.16 |
+     | Washington    |                                 1 |                       0.0 |                               6 |                       0.0 |         269.49 |
+     | America       |                                 5 |                      0.01 |                              51 |                      0.04 |         528.13 |
+     | American      |                                 2 |                       0.0 |                              91 |                      0.07 |        2701.96 |
+     | Florida       |                                 0 |                       0.0 |                               2 |                       0.0 | infinity |
+     | Massachusetts |                                 0 |                       0.0 |                               4 |                       0.0 | infinity |
+     | Jefferson     |                                 0 |                       0.0 |                               5 |                       0.0 | infinity |
+
+     Notes:
+     - "Washington" is used in several contexts. As the State, the City, in names of Treaties, and euphemistically for the American Government
+     - 12 of 18 usages of "independence" in the draft curriculum are references to American independence
+     - 0 of 9 usages of "independence" in the current curriculum are references to American independence
+
+**** Updated language related to use of Indigenous and Aboriginal
+     | word       | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
+     |------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
+     | aboriginal |                                45 |                      0.05 |                               0 |                       0.0 |         -100.0 |
+     | colonial   |                                 0 |                       0.0 |                              35 |                      0.03 | infinity |
+     | indigenous |                                 0 |                       0.0 |                              84 |                      0.06 | infinity |
+
+     The draft curriculum does not include the term aboriginal and prefers indigenous, a word not present in the
+     current curriculum.
+
+     Actually, indigenous is the most used word in the draft that was not in the previous curriculum by a large margin.
+
+**** A decrease in certain learning concepts
+     | word            | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
+     |-----------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
+     | exploratory     |                                21 |                      0.03 |                               0 |                       0.0 |         -100.0 |
+     | cooperatively   |                                13 |                      0.02 |                               0 |                       0.0 |         -100.0 |
+     | self-esteem     |                                 9 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | cooperate       |                                 6 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | inquiry         |                                44 |                      0.05 |                               1 |                       0.0 |          -98.6 |
+     | identity        |                                76 |                      0.09 |                               4 |                       0.0 |         -96.76 |
+     | generalizations |                                15 |                      0.02 |                               1 |                       0.0 |         -95.89 |
+     | pluralistic     |                                11 |                      0.01 |                               1 |                       0.0 |          -94.4 |
+     | appreciate      |                                76 |                      0.09 |                              10 |                      0.01 |          -91.9 |
+     | willingness     |                                15 |                      0.02 |                               2 |                       0.0 |         -91.79 |
+     | multicultural   |                                 5 |                      0.01 |                               1 |                       0.0 |         -87.68 |
+     | cooperation     |                                14 |                      0.02 |                               3 |                       0.0 |          -86.8 |
+     | interrelated    |                                12 |                      0.01 |                               3 |                       0.0 |          -84.6 |
+     | problem-solving |                                27 |                      0.03 |                               7 |                      0.01 |         -84.03 |
+     | volunteerism    |                                 5 |                      0.01 |                               2 |                       0.0 |         -75.37 |
+     | understanding   |                               264 |                      0.32 |                             140 |                       0.1 |         -67.34 |
+
+     These terms, and more like them, are used extensively in the current curriculum, but are largely absent from the
+     draft curriculum.
+
+**** A decrease in mentions of specific disciplines, ideas, or concepts
+     | word           | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
+     |----------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
+     | wetland        |                                13 |                      0.02 |                               0 |                       0.0 |         -100.0 |
+     | aircraft       |                                10 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | camera         |                                10 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | software       |                                10 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | insects        |                                 9 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | library        |                                 9 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | paleontology   |                                 7 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | geology        |                                 6 |                      0.01 |                               0 |                       0.0 |         -100.0 |
+     | electronic     |                                31 |                      0.04 |                               1 |                       0.0 |         -98.01 |
+     | geography      |                                36 |                      0.04 |                               2 |                       0.0 |         -96.58 |
+     | electricity    |                                18 |                      0.02 |                               2 |                       0.0 |         -93.16 |
+     | media          |                               213 |                      0.26 |                              49 |                      0.04 |         -85.83 |
+     | electric       |                                 4 |                       0.0 |                               1 |                       0.0 |          -84.6 |
+     | multimedia     |                                 6 |                      0.01 |                               2 |                       0.0 |         -79.47 |
+     | technology     |                                55 |                      0.07 |                              19 |                      0.01 |         -78.73 |
+     | technological  |                                 8 |                      0.01 |                               3 |                       0.0 |         -76.91 |
+     | sustainability |                                 6 |                      0.01 |                               3 |                       0.0 |         -69.21 |
