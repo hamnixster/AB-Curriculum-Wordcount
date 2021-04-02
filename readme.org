@@ -5,6 +5,18 @@
 
   Running the script produces some ~csv~ files that can be analyzed.
 
+  Feel free to open and analyze these for yourself.
+
+  There are also a couple of wordclouds here, styled appropriately, that show a sample of the most added and removed
+  words, roughly sized to the proportional change.
+
+** Notes about data
+   - In this file, percentages are shown out of 100
+     - i.e. in the ~as percent of total words~ columns, ~0.1~ means ~0.1%~ of all words in the curriculum are this word.
+     - in the ~Percent Change~ column, ~-100~ means entirely removed (between old and new curricula) and ~100~ means
+       doubled.
+   - In the generated ~csv~ files, percentages are shown as fractional amounts, i.e. ~1~ is ~100%~
+
 ** Known issues
    - Grade 7-9 content is present in some of the current curriculum
    - Unicode is not handled well, leading to issues in words with accents
