@@ -37,42 +37,42 @@
      |---------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
      | church        |                                 1 |                       0.0 |                              10 |                      0.01 |         515.81 |
      | religion      |                                 1 |                       0.0 |                              12 |                      0.01 |         638.98 |
-     | goddesses     |                                 0 |                       0.0 |                               5 |                       0.0 | infinity |
-     | Christian     |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
-     | Judaism       |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
-     | non-religious |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
-     | temple        |                                 0 |                       0.0 |                               6 |                       0.0 | infinity |
-     | gods          |                                 0 |                       0.0 |                               9 |                      0.01 | infinity |
-     | Muslim        |                                 0 |                       0.0 |                               9 |                      0.01 | infinity |
-     | Islamic       |                                 0 |                       0.0 |                              10 |                      0.01 | infinity |
-     | Jewish        |                                 0 |                       0.0 |                              10 |                      0.01 | infinity |
-     | religions     |                                 0 |                       0.0 |                              10 |                      0.01 | infinity |
-     | mosque        |                                 0 |                       0.0 |                              12 |                      0.01 | infinity |
-     | Catholic      |                                 0 |                       0.0 |                              16 |                      0.01 | infinity |
-     | Islam         |                                 0 |                       0.0 |                              17 |                      0.01 | infinity |
-     | reformation   |                                 0 |                       0.0 |                              17 |                      0.01 | infinity |
-     | Protestant    |                                 0 |                       0.0 |                              23 |                      0.02 | infinity |
-     | religious     |                                 0 |                       0.0 |                              43 |                      0.03 | infinity |
+     | goddesses     |                                 0 |                       0.0 |                               5 |                       0.0 |  -  |
+     | Christian     |                                 0 |                       0.0 |                               6 |                       0.0 |  -  |
+     | Judaism       |                                 0 |                       0.0 |                               6 |                       0.0 |  -  |
+     | non-religious |                                 0 |                       0.0 |                               6 |                       0.0 |  -  |
+     | temple        |                                 0 |                       0.0 |                               6 |                       0.0 |  -  |
+     | gods          |                                 0 |                       0.0 |                               9 |                      0.01 |  -  |
+     | Muslim        |                                 0 |                       0.0 |                               9 |                      0.01 |  -  |
+     | Islamic       |                                 0 |                       0.0 |                              10 |                      0.01 |  -  |
+     | Jewish        |                                 0 |                       0.0 |                              10 |                      0.01 |  -  |
+     | religions     |                                 0 |                       0.0 |                              10 |                      0.01 |  -  |
+     | mosque        |                                 0 |                       0.0 |                              12 |                      0.01 |  -  |
+     | Catholic      |                                 0 |                       0.0 |                              16 |                      0.01 |  -  |
+     | Islam         |                                 0 |                       0.0 |                              17 |                      0.01 |  -  |
+     | reformation   |                                 0 |                       0.0 |                              17 |                      0.01 |  -  |
+     | Protestant    |                                 0 |                       0.0 |                              23 |                      0.02 |  -  |
+     | religious     |                                 0 |                       0.0 |                              43 |                      0.03 |  -  |
 
      Note: "non-religious" is only used in the context of music and dance.
 
 **** An increase in past cultures and cultural events
      | word          | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
      |---------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
-     | civilization  |                                 0 |                       0.0 |                               7 |                      0.01 | infinity |
-     | Egypt         |                                 0 |                       0.0 |                              16 |                      0.01 | infinity |
-     | Indian        |                                 0 |                       0.0 |                              19 |                      0.01 | infinity |
-     | Greece        |                                 0 |                       0.0 |                              27 |                      0.02 | infinity |
-     | Greek         |                                 0 |                       0.0 |                              30 |                      0.02 | infinity |
-     | Rome          |                                 0 |                       0.0 |                              33 |                      0.02 | infinity |
-     | China         |                                 0 |                       0.0 |                              34 |                      0.03 | infinity |
-     | medieval      |                                 0 |                       0.0 |                              38 |                      0.03 | infinity |
-     | Roman         |                                 0 |                       0.0 |                              43 |                      0.03 | infinity |
+     | civilization  |                                 0 |                       0.0 |                               7 |                      0.01 |  -  |
+     | Egypt         |                                 0 |                       0.0 |                              16 |                      0.01 |  -  |
+     | Indian        |                                 0 |                       0.0 |                              19 |                      0.01 |  -  |
+     | Greece        |                                 0 |                       0.0 |                              27 |                      0.02 |  -  |
+     | Greek         |                                 0 |                       0.0 |                              30 |                      0.02 |  -  |
+     | Rome          |                                 0 |                       0.0 |                              33 |                      0.02 |  -  |
+     | China         |                                 0 |                       0.0 |                              34 |                      0.03 |  -  |
+     | medieval      |                                 0 |                       0.0 |                              38 |                      0.03 |  -  |
+     | Roman         |                                 0 |                       0.0 |                              43 |                      0.03 |  -  |
      |---------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
      | war           |                                 2 |                       0.0 |                              52 |                      0.04 |        1501.12 |
      | renaissance   |                                 1 |                       0.0 |                              38 |                      0.03 |         2240.1 |
-     | reformation   |                                 0 |                       0.0 |                              17 |                      0.01 | infinity |
-     | enlightenment |                                 0 |                       0.0 |                              18 |                      0.01 | infinity |
+     | reformation   |                                 0 |                       0.0 |                              17 |                      0.01 |  -  |
+     | enlightenment |                                 0 |                       0.0 |                              18 |                      0.01 |  -  |
 
 **** An increase of American concepts, locations, and figures
      | word          | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
@@ -81,9 +81,9 @@
      | Washington    |                                 1 |                       0.0 |                               6 |                       0.0 |         269.49 |
      | America       |                                 5 |                      0.01 |                              51 |                      0.04 |         528.13 |
      | American      |                                 2 |                       0.0 |                              91 |                      0.07 |        2701.96 |
-     | Florida       |                                 0 |                       0.0 |                               2 |                       0.0 | infinity |
-     | Massachusetts |                                 0 |                       0.0 |                               4 |                       0.0 | infinity |
-     | Jefferson     |                                 0 |                       0.0 |                               5 |                       0.0 | infinity |
+     | Florida       |                                 0 |                       0.0 |                               2 |                       0.0 |  -  |
+     | Massachusetts |                                 0 |                       0.0 |                               4 |                       0.0 |  -  |
+     | Jefferson     |                                 0 |                       0.0 |                               5 |                       0.0 |  -  |
 
      Notes:
      - "Washington" is used in several contexts. As the State, the City, in names of Treaties, and euphemistically for the American Government
@@ -94,8 +94,8 @@
      | word       | Usage Count in Current Curriculum | as percent of total words | Usage Count in Draft Curriculum | as percent of total words | Percent Change |
      |------------+-----------------------------------+---------------------------+---------------------------------+---------------------------+----------------|
      | aboriginal |                                45 |                      0.05 |                               0 |                       0.0 |         -100.0 |
-     | colonial   |                                 0 |                       0.0 |                              35 |                      0.03 | infinity |
-     | indigenous |                                 0 |                       0.0 |                              84 |                      0.06 | infinity |
+     | colonial   |                                 0 |                       0.0 |                              35 |                      0.03 |  -  |
+     | indigenous |                                 0 |                       0.0 |                              84 |                      0.06 |  -  |
 
      The draft curriculum does not include the term aboriginal and prefers indigenous, a word not present in the
      current curriculum.
