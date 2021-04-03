@@ -118,7 +118,6 @@
      | multicultural   |                                 5 |                      0.01 |                               1 |                       0.0 |         -87.68 |
      | cooperation     |                                14 |                      0.02 |                               3 |                       0.0 |          -86.8 |
      | interrelated    |                                12 |                      0.01 |                               3 |                       0.0 |          -84.6 |
-     | problem-solving |                                27 |                      0.03 |                               7 |                      0.01 |         -84.03 |
      | volunteerism    |                                 5 |                      0.01 |                               2 |                       0.0 |         -75.37 |
      | understanding   |                               264 |                      0.32 |                             140 |                       0.1 |         -67.34 |
 
